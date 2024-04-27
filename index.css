@@ -1,0 +1,67 @@
+.top-box {
+    background-color: #1f2937;
+    margin: 0px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 48px;
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    flex-shrink: 0;
+}
+.List {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 16px;
+}
+.List li a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.lower-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    padding-bottom: 48px;
+}
+.leftish-box {
+    display: flex;
+    flex-direction: column;
+    gap:8px;  
+    flex: 0;
+    box-sizing: content-box;
+}
+.Large-text {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8
+}
+.Smaller-text {
+    font-size: 24px;
+    color: #f9faf8;
+    text-wrap: balance;
+    box-sizing: content-box;
+    width: 400px;
+    height: auto;
+}
+.First-sign-up {
+    align-self: flex-start;
+    background-color: #3882f6;
+    color: white;
+    font-size: 24px;
+    border-radius: 6px;
+    padding:6px
+}
+.First-img {
+    height: auto;
+    width: 20%;
+}
